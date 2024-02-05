@@ -26,7 +26,7 @@ items = [
       ItemModel(value: 'assets/triangleM.png', name: 'triangl' , img: 'assets/triangl.png'),
 ];
 items2 = List<ItemModel>.from(items);
-items.shuffle();// حتى يعرض الاشكال بشكل عشوائي كل مره
+items.shuffle();//  يعرض الاشكال بشكل عشوائي كل مره
 items2.shuffle();
 }
  
@@ -39,7 +39,7 @@ items2.shuffle();
   @override
   Widget build(BuildContext context) {
     if (items.length == 0) gameOver = true;
-   // var teal;//----------------------------------------------------
+   // var teal;//
     return Scaffold( 
   body: SafeArea (
     child: SingleChildScrollView(
