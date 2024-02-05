@@ -64,9 +64,11 @@ class _LoginPageState extends State<LoginPage> {
     var border = OutlineInputBorder(
         borderRadius: BorderRadius.circular(18),
         borderSide: const BorderSide(color: Colors.white));
+    
+//edit color test (textfield)
 
     return TextField(
-      style: const TextStyle(color: Colors.white),
+      style: const TextStyle(color: Colors.beige),
       controller: controller,
       decoration: InputDecoration(
         hintText: hintText,
