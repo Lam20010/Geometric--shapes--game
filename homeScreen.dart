@@ -196,7 +196,7 @@ style: TextStyle(color: Colors.white),
 String result(){
 if (score==100){
  // player.play('success.wav');
-  return 'أحسنت بارك الله فيك';
+  return '..أحسنت بارك الله فيك';
 }else{
  // player.play('tryAgain.wav');
   return '..العب مره اخرى لتحصل على درجه اعلى';
