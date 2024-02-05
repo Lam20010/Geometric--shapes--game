@@ -13,7 +13,7 @@ class _HomePageState extends State<HomePage> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      backgroundColor: Colors.white,
+      backgroundColor: Colors.beige,
       appBar: AppBar(
         title: const Text(
           'Home Page',
@@ -70,7 +70,7 @@ class _HomePageState extends State<HomePage> {
                           width: 80,
                           height: 80,
                           decoration: BoxDecoration(
-                            color: i == 1 ? Colors.blue : Colors.grey,
+                            color: i == 1 ? Colors.blue : Colors.brown,
                             shape: BoxShape.circle,
                             border: Border.all(
                               color: Colors.black,
